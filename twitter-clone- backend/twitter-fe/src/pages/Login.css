@@ -1,0 +1,65 @@
+.login-container{
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 4rem;;
+    
+}
+
+.input-bg{
+    background-color: #f3f3f3;
+    color: #dbdbd5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+
+/*login button*/
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+/*login button*/
+.custom-btn-blue{
+    border: 2px solid #242c31;
+    background-color: #242c31;
+    color: #fff;
+    padding:10px;
+}
+
+/*signup button*/
+.custom-btn-white{
+    border: 2px solid #e8ecee;
+    background-color: #b5d8ee;
+    color: #000;
+    padding: 14px;
+}
+.social-large{
+    display: block;
+}
+.social-small{
+    display: none;
+}
+@media screen and (max-width: 450px){
+    .social-large{
+        display:none;
+    }
+    .social-small{
+        display: block;
+    }
+    .login-container{
+        margin-top: 2.5 rem;
+    }
+    .card{
+        border: none !important;
+    }
+    .card-body{
+        padding-left: 20 rem;
+        padding-right: 1.7rem;
+    }
+    .shadow{
+        box-shadow: none !important;
+    }
+    .card-title{
+        text-align: center;
+    }
+   
+   
+}

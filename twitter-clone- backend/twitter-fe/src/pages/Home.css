@@ -1,0 +1,38 @@
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+.custom-btn-white{
+    border: 1px solid #e8ecee;
+    background-color: #b5d8ee;
+    color: #000;
+    padding: 12px;
+    border-radius: 23px;
+}
+.custom-btn-white:hover{
+    background-color: #4cace7;
+}
+.sidebar_container2{
+    margin-top  : 240px;
+    position: relative;
+}
+.profile{
+    border-radius: 50%;
+}
+.btn-primary{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card{
+    border-top: none;
+    border-bottom: none; 
+}
+.card1{
+    border: none;
+}
+.navbar{
+    display: none;
+}
+
+.border-image{
+    border-radius: 4px;
+}
